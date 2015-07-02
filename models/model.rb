@@ -1,14 +1,17 @@
 class Organization
   
-  attr_accessor :name, :link, 
+  attr_accessor :name, :link, :cause 
   
-  def initialize(name, link,)
+  def initialize(name, link, cause)
     @name = name
     @link = link
+    @cause = cause
   end
  
 end
+
+
     
   
 
-# different types of causes: animals and animal rights, medical research, child rights, civil rights, environment, homelessness, hunger, literacy, mental health, women's rights
+# different types of causes:  homelessness, hunger, literacy, mental health, women's rights
