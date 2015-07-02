@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Charity Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+   <body>
+     <h1>Charity Generator</h1>
+     <form action="/results" method="post">
+          
+     <select name="code"
+             <% @choices.each do |choice| %>
+             <option value=<%=choice%>><%=choice%></option>
+  <% end %>
+     <input type = "submit" value = "Submit">
+        
+     </form>
+  </body>
+</html> 

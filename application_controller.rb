@@ -9,13 +9,15 @@ class MyApp < Sinatra::Base
     erb :index
   end
 
-  get '/results' do
-    puts params
+  get '/salary' do
     erb :results
   end
   
+  
   post '/causes' do
+    params[:salary].to_f
+    @choices = ["animals", "child rights", "civil rights", "environment", "homelessness", "hunger", "literacy", "mental health", "women's rights"]
     erb :causes
-  end
+end 
   
 end
