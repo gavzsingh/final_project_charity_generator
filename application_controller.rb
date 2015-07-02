@@ -9,7 +9,7 @@ class MyApp < Sinatra::Base
     erb :index
   end
 
-  post'results' do
+  post '/results' do
     puts params
     erb :index
   end
