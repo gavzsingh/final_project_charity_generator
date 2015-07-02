@@ -1,19 +1,26 @@
 h1 {
+      margin: auto;
+    width: 50%;
   color: #00CC99;
   font-size: 70px;
   font-family: "Times New Roman", Times, Serif
 }
 
+h2 {
+  color: #00CC99;
+    font-family: "Times New Roman", Times, Serif
+}
+
 form {
     margin: auto;
-    width: 60%;
+    width: 70%;
 /*     border:3px solid #8AC007; */
     padding: 10px;
 }
 
 .charity_box{
    
-  width: 100px;
-  height: 250px;
+  width: 250px;
+  height: 500px;
   
 }
