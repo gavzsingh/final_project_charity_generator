@@ -8,9 +8,11 @@
      <h1>Charity Generator</h1>
      <form action="/results" method="post">
           
-     <select name="code"
+       <%="One percent of your salary is" + " " + @donation.to_s %>
+       <br>
              <% @choices.each do |choice| %>
-             <option value=<%=choice%>></option>
+       <input type="submit" name="cause" value=<%=choice%> class="btn btn-primary">
+                   
   <% end %>
      <input type = "submit" value = "Submit">
         
