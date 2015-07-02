@@ -3,3 +3,10 @@ h1 {
   font-size: 70px;
   font-family: "Times New Roman", Times, Serif
 }
+
+form {
+    margin: auto;
+    width: 60%;
+/*     border:3px solid #8AC007; */
+    padding: 10px;
+}

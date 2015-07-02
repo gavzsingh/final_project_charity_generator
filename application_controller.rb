@@ -6,12 +6,16 @@ require './models/model.rb'
 class MyApp < Sinatra::Base
  
   get '/' do
-    erb :home_page
+    erb :index
   end
 
-  post '/results' do
+  get '/results' do
     puts params
     erb :results
+  end
+  
+  post '/causes' do
+    erb :causes
   end
   
 end
