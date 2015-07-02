@@ -1,4 +1,4 @@
-class Organization
+class Organisation
   
   attr_accessor :name, :link, :cause 
   
@@ -27,19 +27,19 @@ class Organization
   
   minnesota_literacy_council = Organisation.new("Minnesota Literacy Council", "http://mnliteracy.org/support/donate-now", "literacy")
   
-project_on_government_oversight = Organization.new("Project on Government Oversight", "https://secure3.convio.net/pogo/site/Donation2;jsessionid=52725A084331A34B457200FC44785FB8.app313b?df_id=2920&2920.donation=form1", "civil rights")
+project_on_government_oversight = Organisation.new("Project on Government Oversight", "https://secure3.convio.net/pogo/site/Donation2;jsessionid=52725A084331A34B457200FC44785FB8.app313b?df_id=2920&2920.donation=form1", "civil rights")
   
-  the_trevor_project = Organization.new("The Trevor Project", "http://www.thetrevorproject.org/section/donate", "civil rights")
+  the_trevor_project = Organisation.new("The Trevor Project", "http://www.thetrevorproject.org/section/donate", "civil rights")
   
   impact_fund = Organisation.new("Impact Fund", "https://donatenow.networkforgood.org/impactfund", "civil rights")
   
-animal_equality = Organization.new("Animal Equality", "http://www.animalequality.net/donation/", "animal rights")
+animal_equality = Organisation.new("Animal Equality", "http://www.animalequality.net/donation/", "animal rights")
   
-the_humane_league = Organization.new("The Humane League", "https://donatenow.networkforgood.org/TheHumaneLeague/donate", "animal rights")
+the_humane_league = Organisation.new("The Humane League", "https://donatenow.networkforgood.org/TheHumaneLeague/donate", "animal rights")
   
-world_wild_life = Organization.new("World Wild Life", "https://support.worldwildlife.org/site/SPageServer?pagename=main_monthly&s_src=AWG1512SS9B2", "animal rights")
+world_wild_life = Organisation.new("World Wild Life", "https://support.worldwildlife.org/site/SPageServer?pagename=main_monthly&s_src=AWG1512SS9B2", "animal rights")
 
-fauna_and_flora = Organization.new("Fauna and Flora International", "http://www.fauna-flora.org/support/donate/", "environment")
+fauna_and_flora = Organisation.new("Fauna and Flora International", "http://www.fauna-flora.org/support/donate/", "environment")
   
   earth_watch_institute = Organisation.new("Earth Watch Institute", "http://earthwatch.org/get-involved", "environment")
   
