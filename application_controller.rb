@@ -10,12 +10,12 @@ class MyApp < Sinatra::Base
   end
 
   get '/salary' do
-    erb :results
+    erb :salary
   end
-  
-  
+ 
   post '/causes' do
-    params[:salary].to_f
+    @salary = params[:salary].to_f
+    @donation = @salary * 0.01
     @choices = ["animals", "child rights", "civil rights", "environment", "homelessness", "hunger", "literacy", "mental health", "women's rights"]
     erb :causes
 end 
