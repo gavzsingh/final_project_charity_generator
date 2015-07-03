@@ -1,4 +1,4 @@
-gi<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Charity Generator</title>
@@ -11,7 +11,8 @@ gi<!DOCTYPE html>
        <%="One percent of your salary is" + " " + @donation.to_s %>
        <br>
              <% @choices.each do |choice| %>
-       <input type="submit" name="cause" value=<%=choice%> class="btn btn-primary">
+       <!---->
+       <input type="submit" name="cause" value="<%=choice%>" class="btn btn-primary">
                    
   <% end %>
      <input type = "submit" value = "Submit">
