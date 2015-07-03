@@ -1,13 +1,13 @@
 h1 {
       margin: auto;
     width: 50%;
-  color: #000000;
+  color: #FFFF00;
   font-size: 70px;
   font-family: "Times New Roman", Times, Serif
 }
 
 h2 {
-  color: #000000;
+  color: #FFFF00;
     font-family: "Times New Roman", Times, Serif
 }
 
@@ -17,7 +17,7 @@ form {
 /*     border:3px solid #8AC007; */
     padding: 20px;
   font-size: 30px;
-  color: #000000
+  color: #FFFF00
   
 }
 
@@ -33,7 +33,9 @@ form {
   width 200px;
   height: 350px;
 }
-
+.cause {
+  background-color:#FFFF00 ;
+}
 body {
  
   background-image: url("http://cache.desktopnexus.com/thumbseg/656/656536-bigthumbnail.jpg")
