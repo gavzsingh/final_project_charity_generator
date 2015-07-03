@@ -35,9 +35,11 @@ form {
 }
 .cause {
   background-color:#FFFF00 ;
+  width: 20em; 
+    height: 4em;
+  font-size: 10px
 }
 body {
- 
-  background-image: url("http://cache.desktopnexus.com/thumbseg/656/656536-bigthumbnail.jpg")
+  background-image: url("http://cache.desktopnexus.com/thumbseg/656/656536-bigthumbnail.jpg");
   
 }
