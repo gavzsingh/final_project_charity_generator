@@ -16,7 +16,7 @@ class MyApp < Sinatra::Base
   post '/causes' do
     @salary = params[:salary].to_f
     @donation = @salary * 0.01
-    @choices = ["animals", "child rights", "civil rights", "environment", "homelessness", "hunger", "literacy", "mental health", "women's rights"]
+    @choices = ["animal rights", "child rights", "civil rights", "environment", "homelessness", "hunger", "literacy", "mental health", "women's rights"]
     erb :causes
   end
   
@@ -37,6 +37,9 @@ class MyApp < Sinatra::Base
   Organisation.new("Project on Government Oversight", "https://secure3.convio.net/pogo/site/Donation2;jsessionid=52725A084331A34B457200FC44785FB8.app313b?df_id=2920&2920.donation=form1", "civil rights"),
   Organisation.new("The Trevor Project", "http://www.thetrevorproject.org/section/donate", "civil rights"),
   Organisation.new("Impact Fund", "https://donatenow.networkforgood.org/impactfund", "civil rights"),
+  Organisation.new("Animal Equality", "http://www.animalequality.net/donation/", "animal rights"),
+  Organisation.new("The Humane League", "https://donatenow.networkforgood.org/TheHumaneLeague/donate", "animal rights"),
+  Organisation.new("World Wild Life", "https://support.worldwildlife.org/site/SPageServer?pagename=main_monthly&s_src=AWG1512SS9B2", "animal rights"),
   Organisation.new("Fauna and Flora International", "http://www.fauna-flora.org/support/donate/", "environment"),
   Organisation.new("Earth Watch Institute", "http://earthwatch.org/get-involved", "environment"),
   Organisation.new("Blueprint Earth", "http://blueprintearth.org/donate-1/?gclid=CIHp-N7-vMYCFcwXHwodvegHwA", "environment"),
