@@ -8,7 +8,7 @@
      <h1>Charity Generator</h1>
      <form action="/organization-each-cause" method="post">
           
-       <%="One percent of your salary is $#{@donation.to_s}"%>
+       <%="One percent of your salary is $#{@donation.to_s} and it can be used for..."%>
        <br>
              <% @choices.each do |choice| %>
        <!---->
