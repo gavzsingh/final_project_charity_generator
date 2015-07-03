@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Charity Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+   <body>
+     <h1>Charity Generator</h1>
+     <form action="/results" method="post">
+          
+       <%@results.each do |organization|%>
+       <p><%=organization.name%>
+         <a href=<%=organization.link%>> </a>
+      
+       </p>
+ <%end%> 
+       
+        
+     </form>
+  </body>
+</html> 
