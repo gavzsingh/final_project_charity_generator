@@ -22,7 +22,10 @@ form {
 }
 
 .charity_box{
-  width: 400px;
+   
+  width: 250px;
+  height: 500px;
+  
 }
 
 .image {
@@ -34,7 +37,7 @@ form {
   background-color:#FFFF00 ;
   width: 20em; 
     height: 4em;
-  font-size: 10px
+  font-size: 20px
 }
 body {
   background-image: url("http://cache.desktopnexus.com/thumbseg/656/656536-bigthumbnail.jpg");
