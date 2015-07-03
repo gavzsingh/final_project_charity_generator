@@ -9,8 +9,8 @@
      <form action="/results" method="post">
           
        <%@results.each do |organization|%>
-       <p><%=organization.name%>
-         <a href=<%=organization.link%>> </a>
+       <p>
+         <a href=<%=organization.link%>> <%=organization.name%></a>
       
        </p>
  <%end%> 
