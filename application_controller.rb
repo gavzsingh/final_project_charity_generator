@@ -49,7 +49,7 @@ class MyApp < Sinatra::Base
   Organisation.new("Metal Health America", "https://secure2.convio.net/nmha/site/Donation2;jsessionid=A1325ABA0C7B2723DDE6C1171787FC7C.app273a?idb=1716663536&df_id=1240&1240.donation=form1", "mental health"),
   Organisation.new("mind", "http://www.mind.org.uk/get-involved/giving-to-mind/donate/?amount=0.00&ctaId=Home%20Donate%20Button", "mental health"),
   Organisation.new("Global Fund for Women", "https://www.globalfundforwomen.org/donate", "women's rights"),
-  Organisation.new("Center For Reproductive Rights", "http://www.reproductiverights.org/about-us/donate", "women'rights"),
+  Organisation.new("Center For Reproductive Rights", "http://www.reproductiverights.org/about-us/donate", "women's rights"),
   Organisation.new("National Breast Cancer Foundation, Inc.", "https://www.nationalbreastcancer.org/breast-cancer-donations", "women's rights") ]
     
     @results =  []

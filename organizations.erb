@@ -8,9 +8,9 @@
      <h1>Charity Generator</h1>
      <form action="/results" method="post">
           
-     <select name="code"
+     <select name="code">
              <% @choices.each do |choice| %>
-             <option value=<%=choice%>><%=choice%></option>
+       <option value="<%=choice%>"><%=choice_text%></option>
   <% end %>
      <input type = "submit" value = "Submit">
         
